@@ -30,7 +30,7 @@ CREATE TABLE `jobs` (
   `job_title` varchar(255) NOT NULL,
   `max_salary` varchar(255) NOT NULL,
   `min_salary` varchar(255) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+) 
 
 
 
@@ -38,7 +38,7 @@ CREATE TABLE `login_data` (
   `login_user` varchar(255) NOT NULL,
   `login_password` varchar(255) NOT NULL,
   `login_type` varchar(10) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+) 
 
 
 
@@ -48,7 +48,7 @@ CREATE TABLE `department` (
   `department_name` varchar(255) NOT NULL,
   `manager_id` int(10) NOT NULL,
   `manager_name` varchar(255) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+) 
 
 
 Run the app
